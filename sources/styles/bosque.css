@@ -1,0 +1,40 @@
+body {
+  background-image: url("../img/bosque.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+b{
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-size:80px;
+  /*para darle sombra al texto*/
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-size:40px;
+   /*para darle sombra al texto*/
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.icon{
+  position: fixed;
+  top:12px;
+  left: 25px;
+}
+
+.iconD{
+  position: fixed;
+    top:12px;
+    left: 1745px;
+}
+
+/*.botoon{
+  position: fixed;
+  top: 380px;
+  left: 850px;
+}  */

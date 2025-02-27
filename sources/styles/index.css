@@ -1,0 +1,81 @@
+/*MENU*/
+.menu {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:#7eba53;
+    color: white;
+    text-decoration: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.menu a:hover {
+    /*4 tonos mas oscuro que el fondo*/
+    background: #4b6f31;
+}
+
+.ico{
+    position: fixed;
+    top:12px;
+    left: 25px;
+}
+
+.icoD{
+    position: fixed;
+    top:12px;
+    left: 1865px;
+}
+
+/*Presentacion*/
+#presentacion b{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#7eba53;
+    font-size:50px; 
+}
+
+.texto{
+    color:black;
+    font-size: 20px;
+}
+
+
+/*CARRUSEL*/
+.carrusel {
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type:proximity;
+    white-space: nowrap;
+}
+
+.deslizador {
+    display: flex;
+    width: 70%;
+}
+
+.deslizador img {
+    width: 70%;
+    scroll-snap-align: center;
+}
+
+
+/*footer*/
+footer{
+    color:black;
+    font-size: 20px;
+}
+
+#tabla_derecha{
+    position: relative;
+    left:560px;
+    
+}
